@@ -52,6 +52,7 @@ public void disco()
   triangle(160,665,179,675,165,659);
   triangle(140,665,121,675,135,659);
   //third sphere
-  arc(650,650,50,70,0,HALF_PI+QUARTER_PI,OPEN);
-  arc(650,650,50,70,270+QUARTER_PI,360,OPEN);
+  ellipse(650,650,30,30);
+  arc(650,635,60,85,0,HALF_PI+QUARTER_PI,OPEN);
+  arc(646,628,67,85,0,HALF_PI+QUARTER_PI,OPEN);
 }
